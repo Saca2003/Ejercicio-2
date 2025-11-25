@@ -5,5 +5,11 @@ r = float(input("Ingresa la razón (r): "))
 n = int(input("Ingresa el número de término que quieres (n): "))
 
 an = a1 * (r ** (n - 1))
+if (r != 1):
+    an=a1(r**n-1)/r-1
+else:
+    an=a1*n
 
 print("El término número", n, "de la progresión geométrica es:", an)
+
+
